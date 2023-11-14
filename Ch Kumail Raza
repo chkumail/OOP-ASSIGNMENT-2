@@ -1,0 +1,26 @@
+void course :: drop Students(const string & name)
+{
+	int i=0;
+	int j=0;
+	while (i<number of students)
+	{
+		if( students[i]1 = name)
+		{
+			students[j] , students[i];
+			j++
+		}
+		i++
+	}
+	number of student=j;
+}
+course::course(const course&obj)
+{
+	course name=obj.course name;
+	capacity=obj.capacity;
+	number of student=obj number of student;
+	students=new string[capicity];
+	for(int i=0i<number of student;++i)
+	{
+		student[i]=obj.student[i];
+	}
+}
